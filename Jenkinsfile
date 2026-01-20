@@ -6,7 +6,6 @@ pipeline {
     }
 
     stages {
-
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/mujahed1716/Trading-UI.git', branch: 'master'
@@ -39,4 +38,3 @@ pipeline {
         }
     }
 }
--
